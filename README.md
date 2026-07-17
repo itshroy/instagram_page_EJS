@@ -1,4 +1,4 @@
-## Instagram Profile Clone
+## InstagramEJS
 
 A simple Instagram-inspired profile page built using **Node.js**, **Express.js**, and **EJS**.
 
@@ -23,13 +23,17 @@ A simple Instagram-inspired profile page built using **Node.js**, **Express.js**
 ## Folder Structure
 
 ```
-instagram-profile-clone/
+instagramEJS
 │── public/
-│   ├── images/
+│   ├── css/
 │   └── style.css
+│   ├── js/
+│   └── app.js
 │── views/
 │   └── instagram.ejs
-│── app.js
+│   └── error.ejs
+│   └── home.ejs
+│── index.js
 │── package.json
 │── package-lock.json
 │── .gitignore
